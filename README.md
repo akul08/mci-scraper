@@ -18,11 +18,17 @@ Scraper For MCI India Using Selenium
 	- Example:
 
 	{
+	
 		"name": "SEEMA MITTAL",
-		"dob": "", "yearofinfo": "2001",
+		"dob": "",
+		"yearofinfo": "2001",
 		"address": "H. No. A-21, Officers Colony, Ropar, Punjab.",
-		"qualyear": "2000", "dateofreg": "22/01/2001", 
-		"qualification": "MBBS", "regno": "169", 
-		"fname": "L.C.Mittal", "univ": "U.Delhi",
+		"qualyear": "2000",
+		"dateofreg": "22/01/2001", 
+		"qualification": "MBBS",
+		"regno": "169", 
+		"fname": "L.C.Mittal", 
+		"univ": "U.Delhi",
 		"s_no": 86
+		
 	}
