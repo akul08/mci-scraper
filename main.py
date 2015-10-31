@@ -14,7 +14,7 @@ def main():
 
 	"""
 			Stage 1
-	--------------------------------------------------------------------------------------------------------------------
+	---------------------------------------------------------------------------
 			Open the base URL in web browser -Firefox
 
 	"""
@@ -23,24 +23,16 @@ def main():
 
 	"""
 			Stage 2
-	--------------------------------------------------------------------------------------------------------------------
-
+	---------------------------------------------------------------------------
 			Search About College Assessment For Year 2014
 	"""
 	
 	state_medical_council = driver.find_element_by_xpath(".//*[@id='dnn_ctr588_IMRIndex_Link_Council']")
 	state_medical_council.click()
 	
-	""" 
-			Page changes Dynamically
-
-	"""
-
-	"""
-			Search For State - Delhi
+	# Page changes Dynamically
+	# Search For State - Delhi
 	
-	"""
-
 	state_name = driver.find_element_by_xpath(".//*[@id='dnn_ctr588_IMRIndex_Drp_StateCouncil']/option[9]")
 	state_name.click()
 	
@@ -54,7 +46,7 @@ def main():
 
 	"""
 			Stage 3
-	--------------------------------------------------------------------------------------------------------------------
+	---------------------------------------------------------------------------
 
 	Clicking The View button for particular Person And Open the Pop Up Window
 
